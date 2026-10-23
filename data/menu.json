@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "Veg Sandwich",
+        "category": "Snacks",
+        "price": 40,
+        "stock": 0
+    },
+    {
+        "id": 2,
+        "name": "Samosa (2 pcs)",
+        "category": "Snacks",
+        "price": 20,
+        "stock": 40
+    },
+    {
+        "id": 3,
+        "name": "Paneer Roll",
+        "category": "Snacks",
+        "price": 65,
+        "stock": 15
+    },
+    {
+        "id": 4,
+        "name": "Masala Dosa",
+        "category": "Meals",
+        "price": 60,
+        "stock": 12
+    },
+    {
+        "id": 5,
+        "name": "Chole Bhature",
+        "category": "Meals",
+        "price": 70,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "name": "Veg Fried Rice",
+        "category": "Meals",
+        "price": 80,
+        "stock": 0
+    },
+    {
+        "id": 7,
+        "name": "Tea",
+        "category": "Drinks",
+        "price": 10,
+        "stock": 60
+    },
+    {
+        "id": 8,
+        "name": "Coffee",
+        "category": "Drinks",
+        "price": 20,
+        "stock": 50
+    },
+    {
+        "id": 9,
+        "name": "Cold Coffee",
+        "category": "Drinks",
+        "price": 40,
+        "stock": 20
+    },
+    {
+        "id": 10,
+        "name": "Gulab Jamun (2 pcs)",
+        "category": "Desserts",
+        "price": 30,
+        "stock": 18
+    },
+    {
+        "id": 11,
+        "name": "Brownie",
+        "category": "Desserts",
+        "price": 35,
+        "stock": 3
+    }
+]

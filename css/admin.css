@@ -1,0 +1,22 @@
+/* admin.css - staff page */
+h1 { margin-top: 0; }
+.login {
+  background: #fff; max-width: 360px; padding: 24px; border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.07);
+}
+.login label { display: block; font-weight: 600; margin-bottom: 6px; }
+.login input { width: 100%; padding: 10px; border: 1px solid #d9c7b0; border-radius: 8px; font-size: 1rem; }
+.login button { margin-top: 14px; width: 100%; background: #2d2218; color: #fff; border: 0; padding: 11px; border-radius: 8px; font-weight: 600; }
+.logout { text-align: right; margin-bottom: 14px; }
+button.ghost { background: transparent; border: 1px solid #b9a58e; color: #6b5a4a; padding: 8px 16px; border-radius: 8px; }
+.none { color: #8a7968; }
+.order { background: #fff; border-radius: 14px; padding: 16px 18px; margin-bottom: 14px; box-shadow: 0 2px 8px rgba(0,0,0,.07); }
+.order-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.order-head strong { font-size: 1.2rem; color: #e8590c; }
+.order-head span:nth-child(2) { color: #6b5a4a; font-size: .9rem; flex: 1; }
+.order ul { margin: 10px 0; padding-left: 20px; }
+.note { background: #fff9db; padding: 6px 10px; border-radius: 6px; font-size: .9rem; }
+.order .total { font-weight: 700; margin: 6px 0 10px; }
+.status-form { display: flex; gap: 8px; }
+.status-form select { padding: 8px; border-radius: 8px; border: 1px solid #d9c7b0; }
+.status-form button { background: #4263eb; color: #fff; border: 0; border-radius: 8px; padding: 8px 16px; font-weight: 600; }

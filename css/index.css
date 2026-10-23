@@ -1,0 +1,33 @@
+/* index.css - menu page */
+h1 { margin: 0 0 4px; }
+.subtitle { color: #6b5a4a; margin-top: 0; }
+.category {
+  margin: 30px 0 12px; padding-bottom: 6px;
+  border-bottom: 2px dashed #e8c9a0; color: #8a4b08;
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.card {
+  background: #fff; border-radius: 14px; padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.07); display: flex; flex-direction: column; gap: 8px;
+  transition: transform .15s;
+}
+.card:hover { transform: translateY(-3px); }
+.card-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.card h3 { margin: 0; font-size: 1.05rem; }
+.price { font-weight: 700; color: #e8590c; }
+.badge { align-self: flex-start; font-size: .75rem; padding: 2px 10px; border-radius: 999px; font-weight: 600; }
+.badge-ok  { background: #d3f9d8; color: #1b5e20; }
+.badge-low { background: #fff3bf; color: #8a6100; }
+.badge-out { background: #ffe3e3; color: #a61e1e; }
+.in-cart { font-size: .85rem; color: #1864ab; }
+.soldout { opacity: .6; }
+.add-form { display: flex; gap: 8px; margin-top: auto; }
+.add-form input {
+  width: 64px; padding: 8px; border: 1px solid #d9c7b0; border-radius: 8px; font-size: 1rem;
+}
+.add-form button {
+  flex: 1; background: #e8590c; color: #fff; border: 0; border-radius: 8px;
+  padding: 8px; font-weight: 600; font-size: 1rem;
+}
+.add-form button:hover:not(:disabled) { background: #c94a08; }
+.add-form button:disabled, .add-form input:disabled { background: #ccc; cursor: not-allowed; }

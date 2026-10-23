@@ -1,0 +1,42 @@
+/* workflow.css - project workflow page */
+h1 { margin: 0 0 4px; }
+h2 { margin: 34px 0 14px; color: #8a4b08; border-bottom: 2px dashed #e8c9a0; padding-bottom: 6px; }
+.subtitle { color: #6b5a4a; margin-top: 0; }
+
+.flow { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px; }
+.step {
+  position: relative; background: #fff; border-radius: 12px; padding: 14px 12px 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08); flex: 1 1 120px; min-width: 120px; text-align: center;
+  display: flex; flex-direction: column; gap: 4px; border-top: 4px solid #e8590c;
+}
+.step strong { font-size: 1rem; }
+.step small { color: #4263eb; font-family: monospace; }
+.step em { font-size: .8rem; color: #6b5a4a; font-style: normal; }
+.step .n {
+  position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+  background: #e8590c; color: #fff; width: 24px; height: 24px; line-height: 24px;
+  border-radius: 50%; font-size: .8rem; font-weight: 700;
+}
+.step.staff { border-top-color: #4263eb; }
+.flow.small .step { flex: 0 1 190px; }
+.arrow { align-self: center; color: #e8590c; font-size: 1.4rem; font-weight: 700; }
+
+.statuses { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; }
+.statuses .status { font-size: .95rem; padding: 6px 16px; }
+
+.inner { background: #fff; border-radius: 12px; padding: 18px 18px 18px 42px; box-shadow: 0 2px 8px rgba(0,0,0,.07); line-height: 1.9; }
+code { background: #f6e3c8; padding: 1px 6px; border-radius: 4px; }
+
+.tree {
+  background: #2d2218; color: #ffd8a8; padding: 18px; border-radius: 12px;
+  overflow-x: auto; line-height: 1.6; font-size: .9rem;
+}
+
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.box { background: #fff; border-radius: 12px; padding: 4px 18px 14px; box-shadow: 0 2px 8px rgba(0,0,0,.07); border-left: 5px solid #e8590c; }
+.box h3 { color: #e8590c; font-family: monospace; }
+
+.tags { display: flex; flex-wrap: wrap; gap: 10px; }
+.tags span { background: #fff; border: 1px solid #e8c9a0; border-radius: 999px; padding: 6px 14px; font-size: .9rem; }
+
+@media print { .topbar, .footer { display: none; } body { background: #fff; } }

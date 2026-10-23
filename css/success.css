@@ -1,0 +1,25 @@
+/* success.css - order confirmation page */
+.receipt {
+  max-width: 440px; margin: 20px auto; background: #fff; border-radius: 18px;
+  padding: 30px 26px; text-align: center; box-shadow: 0 6px 20px rgba(0,0,0,.1);
+}
+.tick {
+  width: 60px; height: 60px; line-height: 60px; margin: 0 auto 8px; border-radius: 50%;
+  background: #d3f9d8; color: #1b5e20; font-size: 2rem; font-weight: 700;
+}
+.receipt h1 { margin: 6px 0; }
+.receipt p { margin: 6px 0; color: #6b5a4a; }
+.number {
+  font-size: 2.6rem; font-weight: 800; letter-spacing: 3px; color: #e8590c;
+  border: 3px dashed #f4b183; border-radius: 12px; padding: 8px; margin: 10px 0 14px;
+}
+.position { margin: 14px 0 !important; font-size: 1.05rem; }
+.lines { list-style: none; padding: 0; margin: 18px 0; text-align: left; }
+.lines li { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #f0e4d2; }
+.lines .sum { font-weight: 700; border-bottom: 0; font-size: 1.1rem; }
+.btn {
+  display: block; background: #e8590c; color: #fff; text-decoration: none;
+  padding: 12px; border-radius: 10px; font-weight: 600;
+}
+.btn:hover { background: #c94a08; }
+.link { display: inline-block; margin-top: 12px; color: #8a4b08; }
